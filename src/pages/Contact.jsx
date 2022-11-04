@@ -1,9 +1,15 @@
 import Footer from "../component/Footer";
 import "../index.css";
+import {useState} from 'react'
 
 function Contact() {
-  function handleSubmit() {
-    alert('Message sent')
+  const [name,changeName] = useState('')
+
+  function handleSubmit(e) {
+    e.preventDefault()
+    if (name === '') {
+      alert('field must not be empty!!')
+    }
   }
   return (
     <>
@@ -13,7 +19,7 @@ function Contact() {
           <p>Hi there, contact me to ask about anything you have in mind.</p>
         </div>
 
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="-mx-2 md:flex">
             <div className="w-full px-2 md:w-1/2">
               <label
@@ -74,7 +80,7 @@ function Contact() {
           <button
             id="btn__submit"
             className="bg-blue-600 w-full rounded-md text-white text-sm text-center py-2"
-            onClick={handleSubmit}
+            onClick={onclick}
           >
             Message Me
           </button>
