@@ -1,15 +1,16 @@
 import Footer from "../component/Footer";
 import "../index.css";
-import {useState} from 'react'
+// import {useState} from 'react'
 
 function Contact() {
-  const [name,changeName] = useState('')
+  // const [name,changeName] = useState('')
 
   function handleSubmit(e) {
     e.preventDefault()
-    if (name === '') {
-      alert('field must not be empty!!')
-    }
+    // if (name === '') {
+    //   alert('')
+    // }
+    alert('Message Sent');
   }
   return (
     <>
