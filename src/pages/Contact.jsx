@@ -62,7 +62,7 @@ function Contact() {
             id="message"
             cols="25"
             rows="7"
-            placeholder="Send me a message and i'll reply you as soon as possible....."
+            placeholder="Send me a message and i'll reply you as soon as possible......"
             className="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           ></textarea>
           <div style={{ marginBottom: 10 }}>
