@@ -27,11 +27,11 @@ function Contact() {
                 htmlfor="firstname"
                 className="block text-gray-700 text-sm mb-2"
               >
-                First-Name
+                First Name
               </label>
               <input
                 type="text"
-                id="firstname"
+                id="Firstname"
                 placeholder="Enter your first name"
                 className="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               />
@@ -46,7 +46,7 @@ function Contact() {
               </label>
               <input
                 type="text"
-                id="lastname"
+                id="Lastname"
                 placeholder="Enter your last name"
                 className="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               />

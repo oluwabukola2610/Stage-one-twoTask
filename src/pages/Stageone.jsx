@@ -83,7 +83,7 @@ function Stageone() {
           </div>
         ))}
         <div className="bg-gray-200 rounded-lg text-sm p-5 my-5 drop-shadow-[0_15px_25px_rgba(0,0,0,0.02)] hover:drop-shadow-md hover:bg-gray-300">
-          <button><Link to="/contact">Contact Me</Link></button>
+          <button id='btn_contact'><Link to="/contact">Contact Me</Link></button>
         </div>
       </div>
 
