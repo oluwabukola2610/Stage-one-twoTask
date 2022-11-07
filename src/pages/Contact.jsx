@@ -3,8 +3,7 @@ import "../index.css";
 // import {useState} from 'react'
 
 function Contact() {
-  // const [name,changeName] = useState('')
-
+const name ="M_Roheemoh"
   function handleSubmit(e) {
     e.preventDefault()
     // if (name === '') {
@@ -27,11 +26,11 @@ function Contact() {
                 htmlfor="firstname"
                 className="block text-gray-700 text-sm mb-2"
               >
-                First Name
+                First-Name
               </label>
               <input
                 type="text"
-                id="Firstname"
+                id="firstname"
                 placeholder="Enter your first name"
                 className="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               />
@@ -46,7 +45,7 @@ function Contact() {
               </label>
               <input
                 type="text"
-                id="Lastname"
+                id="lastname"
                 placeholder="Enter your last name"
                 className="shadow appearance-none border rounded w-full py-2 px-3 mb-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               />
@@ -75,7 +74,7 @@ function Contact() {
           <div style={{ marginBottom: 10 }}>
             <input type="checkbox" name="" id="check" />
             <label htmlFor="check" style={{ marginLeft: 4 }}>
-              You agree to providing your data to M_Roheemoh who contact you.
+              You agree to providing your data to {name} who contact you.
             </label>
           </div>
           <button
